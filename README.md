@@ -14,19 +14,19 @@ posterior.
 
 | #   | Actividad                                          | Tiempo estimado |
 | --- | -------------------------------------------------- | --------------: |
-| 1   | Analizar y dividir las interfaces                  |          20 min |
-| 2   | Crear estructura inicial del proyecto              |          10 min |
-| 3   | Crear estructura HTML de la página de planes       |          25 min |
-| 4   | Crear las tarjetas de los tres planes              |          35 min |
-| 5   | Agregar información de los planes                  |          20 min |
-| 6   | Crear estructura HTML de la página de herramientas |          25 min |
-| 7   | Crear sección de soporte                           |          20 min |
-| 8   | Crear sección de herramientas                      |          30 min |
-| 9   | Revisar títulos, listas y párrafos                 |          15 min |
-| 10  | Probar las páginas                                 |          15 min |
-| 11  | Revisar y corregir HTML                            |          20 min |
-| 12  | Actualizar documentación                           |          15 min |
-| 13  | Registrar cambios en Git/GitHub                    |          10 min |
+| 1   | Analizar y dividir las interfaces                  |           4 min |
+| 2   | Crear estructura inicial del proyecto              |           2 min |
+| 3   | Crear estructura HTML de la página de planes       |           5 min |
+| 4   | Crear las tarjetas de los tres planes              |           2 min |
+| 5   | Agregar información de los planes                  |           3 min |
+| 6   | Crear estructura HTML de la página de herramientas |           3 min |
+| 7   | Crear sección de soporte                           |           3 min |
+| 8   | Crear sección de herramientas                      |           2 min |
+| 9   | Revisar títulos, listas y párrafos                 |           3 min |
+| 10  | Probar las páginas                                 |           3 min |
+| 11  | Revisar y corregir HTML                            |           3 min |
+| 12  | Actualizar documentación                           |           3 min |
+| 13  | Registrar cambios en Git/GitHub                    |           3 min |
 
 **Tiempo total estimado: 4 horas 20 minutos**
 
@@ -77,13 +77,13 @@ Los tiempos reales serán registrados utilizando TopTracker.
 
 | Actividad               | Tiempo estimado |   Tiempo real |
 | ----------------------- | --------------: | ------------: |
-| Análisis                |          20 min |     Pendiente |
-| Estructura del proyecto |          10 min |     Pendiente |
-| Página de planes        |      1 h 20 min |     Pendiente |
-| Página de herramientas  |      1 h 15 min |     Pendiente |
-| Revisión y pruebas      |          50 min |     Pendiente |
-| Documentación y Git     |          25 min |     Pendiente |
-| **Total**               |  **4 h 20 min** | **Pendiente** |
+| Análisis                |          20 min |        18 min |
+| Estructura del proyecto |          10 min |         3 min |
+| Página de planes        |          20 min |         5 min |
+| Página de herramientas  |          15 min |         7 min |
+| Revisión y pruebas      |           5 min |         2 min |
+| Documentación y Git     |           5 min |         2 min |
+| **Total**               |  **1 h 25 min** | **Pendiente** |
 
 ## Conclusiones
 
@@ -98,4 +98,4 @@ tiempos para futuros proyectos.
 
 Repositorio del proyecto:
 
-[Pegar aquí el enlace al repositorio de GitHub]
+https://github.com/Jack-SparrowQ/practice-2-and-3.git
