@@ -1,0 +1,151 @@
+/* ==========================
+   1. Global Styles
+   ========================== */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #30343b;
+  background-color: #ffffff;
+  line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin-top: 0;
+}
+
+a {
+  color: #2599b4;
+  text-decoration: underline;
+}
+
+button {
+  font: inherit;
+  cursor: pointer;
+}
+
+/* ==========================
+   2. Página de planes
+   ========================== */
+
+.hosting-header {
+  background-color: #087c4b;
+  color: #ffffff;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.hosting-header h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.plans-container {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  gap: 12px;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.plan-card {
+  flex: 1;
+  min-width: 0;
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 20px 15px;
+}
+
+.plan-price {
+  background-color: #f5f6f7;
+  padding: 15px 5px;
+  margin: 15px 0;
+}
+
+.plan-button {
+  background-color: #ff7139;
+  color: #ffffff;
+  border: none;
+  padding: 10px 25px;
+}
+
+/* ==========================
+   3. Página de herramientas
+   ========================== */
+
+.support-section {
+  background-color: #343434;
+  color: #ffffff;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.support-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.tools-section {
+  max-width: 850px;
+  margin: 0 auto;
+  padding: 35px 20px;
+  text-align: center;
+}
+
+.tools-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 40px 30px;
+  text-align: left;
+}
+
+.tool-card {
+  padding: 10px;
+}
+
+.tool-card h2 {
+  font-size: 1rem;
+  margin-bottom: 8px;
+}
+
+.tool-card p {
+  font-size: 0.85rem;
+  color: #666666;
+}
+
+.tool-card a {
+  font-size: 0.8rem;
+}
+
+/* ==========================
+   4. Adaptación a móviles
+   ========================== */
+
+@media (max-width: 650px) {
+  .plans-container {
+    flex-direction: column;
+  }
+
+  .support-container {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .tools-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+}
